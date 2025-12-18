@@ -10,7 +10,7 @@ const CEOMessage = () => {
             Nkechi Ibiene Nnwoka
           </h1>
           <div className="w-12 p-0.5 bg-black mx-auto" />
-          <p className="uppercase font-body">CEO</p>
+          <p className="uppercase font-body pb-4 md:pb-12">CEO</p>
         </div>
         <div>
           <Image
