@@ -4,7 +4,7 @@ import Image from "next/image"
 const IntlBody = () => {
   return (
     <div className="bg-[#568FCE] w-full h-fit">
-      <div className="lg:max-w-4xl xl:max-w-7xl lg:gap-16 gap-8 md:max-w-3xl py-8 md:pt-12 lg:py-24 mx-auto flex flex-col px-5 md:px-0 md:flex-row md:p-12">
+      <div className="lg:max-w-4xl xl:max-w-7xl lg:gap-16 gap-8 md:max-w-2xl py-8 md:pt-12 lg:py-24 mx-auto flex flex-col px-5 md:px-0 md:flex-row md:p-12">
         <div>
           <p className="md:text-lg lg:text-3xl text-white">The Threshold School is a Co-Educational Private Christian school, consisting of the crèche, Pre-School, Nursery, Primary, College and A- Level for children between the ages of 3 months to 18 years.</p>
 
@@ -134,7 +134,7 @@ const IntlBody = () => {
 
 
       <div
-        className="grid grid-cols-1 md:grid-cols-3 mx-auto md:max-w-3xl lg:max-w-4xl xl:max-w-7xl md:py-12 lg:pb-24 gap-4 p-4 md:p-0"
+        className="grid grid-cols-1 md:grid-cols-3 mx-auto md:max-w-3xl lg:max-w-4xl xl:max-w-7xl md:py-12 lg:pb-24 gap-4 p-4 md:p-12 lg:p-0"
       >
         <div>
           <Image 

@@ -11,11 +11,13 @@ const International = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative w-full h-84 md:h-108 xl:h-180 font-body!">
+      <div className="relative w-full min-h-[70vh] md:min-h-[80vh] xl:min-h-[90vh]">
         <Image 
           src="/images/threshold-international.jpg"
           alt="Threshold Schools Hero"
           fill
+          priority
+          className="object-cover object-center"
         />
 
         <div className="w-4xs mx-auto lg:w-fit absolute top-16 left-0 right-0 flex flex-col justify-center items-center text-white"> 

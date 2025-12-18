@@ -33,7 +33,7 @@ export default function HomePage() {
 
       <section className="w-full flex flex-col md:flex-row border-b border-stone-200">
         {/* Headings + Buttons */}
-          <div className="md:w-1/2 p-16 md:border-0 md:border-r border-stone-200 flex flex-col md:flex-row gap-8 border-b">
+          <div className="md:w-1/2 p-16 md:border-0 md:border-r border-stone-200 flex flex-col lg:flex-row gap-8 border-b">
             <Image
               src="/images/international.png"
               alt="Threshold Schools logo"
@@ -54,13 +54,13 @@ export default function HomePage() {
           </div>
           
 
-          <div className="md:w-1/2 p-12 flex flex-col md:flex-row gap-8 md:items-center">
+          <div className="md:w-1/2 p-12 flex flex-col lg:flex-row gap-8 lg:items-center ">
             <Image
               src="/images/logo.png"
               alt="Threshold College logo"
               width={132}
               height={132}
-              className="object-contain"
+              className="object-contain md:pb-15"
             />
 
             <div  className="flex flex-col gap-4">
@@ -77,7 +77,6 @@ export default function HomePage() {
       </section>
 
 
-      {/* Info section under hero */}
       <section className="py-8 px-4 sm:py-12 md:py-16 sm:px-6 md:px-8 max-w-3xl lg:max-w-5xl mx-auto">
         <div className="pb-4">
           <h2 className="text-2xl md:text-[40px] uppercase font-body font-medium text-center mb-2">

@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Prompt = () => {
+const SecPrompt = () => {
   const [visible, setVisible] = useState(true);
 
   if (!visible) return null;
@@ -13,7 +13,7 @@ const Prompt = () => {
     <div className="fixed bottom-0 left-0 w-full bg-[#030096] text-white z-50"> 
       {/* fixed to viewport bottom, full width, above other content */}
       <div className="py-6 px-6 xl:px-0 flex flex-col md:flex-row items-start md:items-center justify-between xl:max-w-7xl mx-auto">
-        <h1 className="text-2xl pb-8 md:pb-0 lg:text-3xl font-body">Primary School Admissions Now Open!</h1>
+        <h1 className="text-2xl pb-8 md:pb-0 lg:text-3xl font-body">Secondary School Admissions Now Open!</h1>
 
         <div className="flex flex-row gap-6 items-center justify-between w-full md:w-fit">
           <Link 
@@ -49,4 +49,4 @@ const Prompt = () => {
   );
 };
 
-export default Prompt;
+export default SecPrompt;

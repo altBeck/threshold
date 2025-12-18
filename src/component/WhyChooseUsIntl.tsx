@@ -4,7 +4,7 @@ const WhyChooseUsIntl = () => {
   return (
 
     <div className="md:bg-white border-y border-[#e0e0e0]">
-      <div className="lg:p-18 md:p-10 rounded-sm">
+      <div className="lg:p-12 md:p-10 rounded-sm">
         <div className="md:flex md:flex-row">
           <div className="bg-[#030096] md:rounded-tl p-6 py-12 lg:py-36 text-center md:flex md:flex-col text-white md:justify-center md:items-center md:w-1/2">
             <h1 className="text-2xl pb-2 md:pb-0 lg:text-3xl md:text-2xl font-medium">WHY CHOOSE US</h1>
@@ -16,7 +16,7 @@ const WhyChooseUsIntl = () => {
             </p>
           </div>
 
-          <div className="relative md:w-1/2 w-full lg:h-112 md:h-75"> 
+          <div className="relative md:w-1/2 w-full lg:h-auto md:h-75"> 
             {/* Parent has relative + fixed/responsive height */}
             <Image
               src="/images/international/intl-students.png"

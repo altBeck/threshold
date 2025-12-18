@@ -23,7 +23,7 @@ const Principal = () => {
         <div className="xl:max-w-3xl md:w-1/2">
           <div className="flex flex-col gap-2 pb-6 font-body">  
             <h1 className="lg:text-4xl md:text-xl font-body md:font-semibold lg:font-medium ">Welcome Message from the Principal</h1>
-            <p className="lg:text-3xl text-[#8F8E90] pb-4 font-extralight">It is with much pleasure and humility that I welcome you to The Threshold School. I feel honored to be given the responsibility of heading and managing this gr...</p>
+            <p className="lg:text-2xl text-[#8F8E90] pb-4 font-extralight">It is with much pleasure and humility that I welcome you to The Threshold School. I feel honored to be given the responsibility of heading and managing this gr...</p>
           </div>
 
           <Link href="/principal" className="bg-black px-5 py-3 rounded-md">

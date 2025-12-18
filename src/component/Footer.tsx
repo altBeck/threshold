@@ -4,9 +4,9 @@ import Link from "next/link"
 const Footer = () => {
   return (
     <div
-      className="w-full"
+      className="w-full pt-8 lg:pt-16"
     >
-      <div className='lg:max-w-7xl mx-auto md:py-16 p-4 md:p-0'>
+      <div className='lg:max-w-7xl mx-auto md:py-16 p-4 md:px-12 xl:p-0'>
         <div>
           <div className="pb-10">
             <h1 className="font-semibold pb-2">OUR PARTNERS</h1>
@@ -143,9 +143,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div>
+        <div className="pb-8 lg:pb-16">
           <Image 
-            src="/images/international.png"
+            src="/images/logo.png"
             alt="The Threshold School logo"
             width={100}
             height={100}

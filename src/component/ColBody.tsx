@@ -4,12 +4,12 @@ import Image from "next/image"
 const ColBody = () => {
   return (
     <div className="bg-[#534D7D] w-full h-fit">
-      <div className="lg:max-w-4xl xl:max-w-7xl lg:gap-16 gap-8 md:max-w-3xl py-8 md:pt-12 lg:py-24 mx-auto flex flex-col px-5 md:px-0 md:flex-row md:p-12">
+      <div className="lg:max-w-4xl xl:max-w-7xl lg:gap-16 gap-8 md:max-w-2xl py-8 md:pt-12 lg:py-24 mx-auto flex flex-col px-5 md:px-0 md:flex-row md:p-12">
         <div>
-          <p className="text-3xl text-white">The Threshold School is a Co-Educational Private Christian school, consisting of the crèche, Pre-School, Nursery, Primary, College and A- Level for children between the ages of 3 months to 18 years.</p>
+          <p className="md:text-lg lg:text-3xl text-white">The Threshold School is a Co-Educational Private Christian school, consisting of the crèche, Pre-School, Nursery, Primary, College and A- Level for children between the ages of 3 months to 18 years.</p>
 
           <div className="w-full mt-16 py-8 border-y-2 border-[#E8E8E8]">
-            <h1 className="uppercase text-white py-4 text-3xl font-semibold">Explore</h1>
+            <h1 className="uppercase text-white py-4 md:text-2xl lg:text-3xl font-semibold">Explore</h1>
 
             <Link 
               href="/curriculum"
@@ -56,7 +56,7 @@ const ColBody = () => {
         </div>
 
         <div>
-          <p className="text-3xl text-white">As a Christian school, we believe every child is endowed with innate abilities to learn, excel, and express their uniqueness. We provide a safe, stimulating environment where children grow into healthy, responsible, respectful, tolerant, and confident individuals with an appreciation for the arts.</p>
+          <p className="md:text-lg lg:text-3xl text-white">As a Christian school, we believe every child is endowed with innate abilities to learn, excel, and express their uniqueness. We provide a safe, stimulating environment where children grow into healthy, responsible, respectful, tolerant, and confident individuals with an appreciation for the arts.</p>
         </div>
       </div>
 

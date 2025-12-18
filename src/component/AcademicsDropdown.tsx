@@ -48,10 +48,10 @@ const AcademicsDropdown = () => {
 
       {open && (
         <div
-          className="fixed top-[8rem] left-1/2 transform -translate-x-1/2 bg-white rounded-md w-[52rem] shadow-lg z-50"
+          className="fixed top-32 left-1/2 transform -translate-x-1/2 bg-white rounded-md w-auto shadow-lg z-50"
         >
           <div className="px-6 py-4">
-            <h3 className="font-medium font-display md:w-[34rem] text-3xl">
+            <h3 className="font-medium font-display md:w-136 text-3xl">
               Explore The Threshold Schools — Campus Overview
             </h3>
           </div>
