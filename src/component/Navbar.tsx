@@ -81,7 +81,7 @@ const NavBar = () => {
               <span>Contact us</span>
             </Link>
 
-            <Link href="/blog" className="flex uppercase">
+            <Link target="_blank" href="https://substack.com/@ttspressclub?r=578com&utm_medium=ios" className="flex uppercase">
               <span>Blog</span>
             </Link>
           </div>
@@ -163,7 +163,7 @@ const NavBar = () => {
 
             
             <Link href="/contact" className="uppercase">Contact us</Link>
-            <Link href="/blog" className="uppercase">Blog</Link>
+            <Link target="_blank" href="https://substack.com/@ttspressclub?r=578com&utm_medium=ios" className="uppercase">Blog</Link>
           </nav>
         </div>
       )}
