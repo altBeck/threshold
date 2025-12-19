@@ -123,9 +123,9 @@ const NavBar = () => {
             </button>
               {aboutUsOpen && (
               <div className="flex flex-col gap-1.5">
-                <Link href="/founder" className="py-1">Founder's Message</Link>
-                <Link href="/ceo" className="py-1">CEO's Message</Link>
-                <Link href="/principal" className="py-1">Principal's Message</Link>
+                <Link href="/founder" className="py-1">Founder&apos;s Message</Link>
+                <Link href="/ceo" className="py-1">CEO&apos;s Message</Link>
+                <Link href="/principal" className="py-1">Principal&apos;s Message</Link>
               </div>
             )}
 
