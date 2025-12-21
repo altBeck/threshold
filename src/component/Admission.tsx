@@ -9,7 +9,7 @@ const Admission = () => {
           admission
         </h1>
 
-        <p className="lg:text-lg p-4 md:p-o font-light lg:pb-4">The Threshold International Schools has been dedicated to fostering excellence in committed professionals and encourage to provide a balanced comprehensive educational curriculum for full development of children intellectually, spiritually and socially.</p>
+        <p className="lg:text-lg p-4 md:p-8 font-light lg:pb-4">The Threshold International Schools has been dedicated to fostering excellence in committed professionals and encourage to provide a balanced comprehensive educational curriculum for full development of children intellectually, spiritually and socially.</p>
       </div>
 
       <Link 

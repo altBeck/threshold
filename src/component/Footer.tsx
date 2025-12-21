@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
 
           <div
-            className="py-4 flex md:flex-row gap-12 w-full items-center"
+            className="py-4 flex flex-col md:flex-row gap-12 w-full items-center"
           >
             <div>
               <Image 
@@ -39,8 +39,7 @@ const Footer = () => {
                 src="/icons/footer/cb.png"
                 width={152}
                 height={56}
-                alt="WAEC icon"
-                className="w-16 h-auto md:w-auto"
+                alt="Cambridge icon"
               />
             </div>
 
@@ -83,11 +82,6 @@ const Footer = () => {
                 </Link>
               </div>
 
-              <div>
-                <Link href="/facilities">
-                  <span className="uppercase">school facilities</span>
-                </Link>
-              </div>
             </div>
           </div>
 

@@ -30,7 +30,7 @@ const PrincipalMessage = () => {
         <div>
           <div className="w-full p-0.25 bg-[#E8E8E8] mx-auto" />
 
-          <div className="text-lg max-w-xl pt-16 md:text-xl font-body text-[#424242]">
+          <div className="text-lg max-w-xl pt-10 md:pt-16 md:text-xl font-body text-[#424242]">
             <p>It is with much pleasure and humility that I welcome you to The Threshold School. I feel honored to be given the responsibility of heading and managing this great school.</p>
             <br />
             <p>
