@@ -77,10 +77,6 @@ const NavBar = () => {
 
             <AcademicsDropdown />
 
-            <Link href="/contact" className="flex uppercase">
-              <span>Contact us</span>
-            </Link>
-
             <Link target="_blank" href="https://substack.com/@ttspressclub?r=578com&utm_medium=ios" className="flex uppercase">
               <span>Blog</span>
             </Link>
@@ -160,9 +156,7 @@ const NavBar = () => {
                 <Link href="/admissions" className="py-1">Admissions</Link>
               </div>
             )}
-
             
-            <Link href="/contact" className="uppercase">Contact us</Link>
             <Link target="_blank" href="https://substack.com/@ttspressclub?r=578com&utm_medium=ios" className="uppercase">Blog</Link>
           </nav>
         </div>
