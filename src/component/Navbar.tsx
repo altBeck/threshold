@@ -152,8 +152,8 @@ const NavBar = () => {
             {academicsOpen && (
               <div className="flex flex-col">
                 <Link href="/boarding" className="py-1">Boarding at TTC</Link>
-                <Link href="/curriculum" className="py-1">Curriculum</Link>
-                <Link href="/admissions" className="py-1">Admissions</Link>
+                <Link href="/curriculum-intl" className="py-1">Curriculum</Link>
+                <Link href="/admissions-international" className="py-1">Admissions</Link>
               </div>
             )}
             

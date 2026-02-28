@@ -12,7 +12,7 @@ const IntlBody = () => {
             <h1 className="uppercase text-white py-4 md:text-2xl lg:text-3xl font-semibold">Explore</h1>
 
             <Link 
-              href="/curriculum"
+              href="/curriculum-intl"
               className="flex flex-row gap-2 py-2 lg:py-4 my-0.5 w-fit"
             >
               <span className="text-white md:text-base lg:text-xl uppercase font-medium font-body">Curriculum</span>
@@ -40,7 +40,7 @@ const IntlBody = () => {
 
 
             <Link 
-              href="/admissions"
+              href="/admissions-international"
               className="flex flex-row gap-2 py-2 lg:py-4 my-0.5 w-fit"
             >
               <span className="text-white md:text-base lg:text-xl uppercase font-medium font-body">ADMISSIONS</span>
@@ -76,7 +76,7 @@ const IntlBody = () => {
             <h1 className="uppercase text-white py-4 md:text-2xl lg:text-3xl font-semibold">Explore</h1>
 
             <Link 
-              href="/curriculum"
+              href="/curriculum-intl"
               className="flex flex-row gap-2 py-2 lg:py-4 my-0.5 w-fit"
             >
               <span className="text-white md:text-base lg:text-xl uppercase font-medium font-body">Curriculum</span>
@@ -104,7 +104,7 @@ const IntlBody = () => {
 
 
             <Link 
-              href="/admissions"
+              href="/admissions-international"
               className="flex flex-row gap-2 py-2 lg:py-4 my-0.5 w-fit"
             >
               <span className="text-white md:text-base lg:text-xl uppercase font-medium font-body">ADMISSIONS</span>

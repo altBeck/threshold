@@ -1,4 +1,4 @@
-import NavBar from "@/component/Navbar";
+import NavBar from "@/component/NavBar";
 import Footer from "@/component/Footer";
 import CEOMessage from "@/component/CEOMessage";
 import AdmissionOpenCEO from "@/component/AdmissionOpenCEO";
@@ -13,7 +13,7 @@ const CEO = () => {
       <Admission />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default CEO
+export default CEO;

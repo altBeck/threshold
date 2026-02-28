@@ -1,6 +1,6 @@
 import Principal from "@/component/Principal";
 import IntlBody from "@/component/IntlBody";
-import Navbar from "@/component/Navbar"; 
+import Navbar from "@/component/NavBar";
 import Prompt from "@/component/Prompt";
 import WhyChooseUsIntl from "@/component/WhyChooseUsIntl";
 import Admission from "@/component/Admission";
@@ -12,7 +12,7 @@ const International = () => {
     <div>
       <Navbar />
       <div className="relative w-full min-h-[70vh] md:min-h-[80vh] xl:min-h-[90vh]">
-        <Image 
+        <Image
           src="/images/threshold-international.jpg"
           alt="Threshold Schools Hero"
           fill
@@ -20,8 +20,7 @@ const International = () => {
           className="object-cover object-center"
         />
 
-        <div className="w-4xs mx-auto lg:w-fit absolute top-16 left-0 right-0 flex flex-col justify-center items-center text-white"> 
-          
+        <div className="w-4xs mx-auto lg:w-fit absolute top-16 left-0 right-0 flex flex-col justify-center items-center text-white">
           <h1 className="text-2xl md:w-fit md:text-3xl lg:text-5xl lg:w-204 text-center font-display font-medium mb-2">
             Welcome to The Threshold International School
           </h1>

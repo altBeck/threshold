@@ -17,7 +17,7 @@ const Prompt = () => {
 
         <div className="flex flex-row gap-6 items-center justify-between w-full md:w-fit">
           <Link 
-            href="/admissions"
+            href="/admissions-international"
             className="flex flex-row gap-2 px-6 py-4 bg-white rounded-md"
           >
             <span className="text-[#030096] font-semibold font-body">Enquire Now</span>

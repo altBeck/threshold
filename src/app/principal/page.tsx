@@ -1,8 +1,8 @@
-import NavBar from '@/component/Navbar'
-import Footer from '@/component/Footer'
-import PrincipalMessage from '@/component/PrincipalMessage'
-import Admission from '@/component/Admission'
-import AdmissionOpenPrincipal from '@/component/AdmissionOpenPrincipal'
+import NavBar from "@/component/NavBar";
+import Footer from "@/component/Footer";
+import PrincipalMessage from "@/component/PrincipalMessage";
+import Admission from "@/component/Admission";
+import AdmissionOpenPrincipal from "@/component/AdmissionOpenPrincipal";
 
 const Principal = () => {
   return (
@@ -13,7 +13,7 @@ const Principal = () => {
       <Admission />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Principal
+export default Principal;

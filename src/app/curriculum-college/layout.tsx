@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "@/component/Navbar";
+import NavbarCollege from "@/component/NavbarCollege";
 
 export default function CurriculumLayout({
   children,
@@ -8,7 +8,7 @@ export default function CurriculumLayout({
 }) {
   return (
     <div className="curriculum-layout-wrapper">
-      <NavBar />
+      <NavbarCollege />
       {children}
     </div>
   );
