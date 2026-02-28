@@ -17,8 +17,21 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://threshold-pb22.vercel.app/"),
   title: "Threshold Schools",
   description: "Fostering Academic Excellence...",
+  openGraph: {
+    title: "Threshold Schools",
+    description: "Fostering Academic Excellence...",
+    images: ["/images/college-logo.png"],
+    siteName: "Threshold Schools",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Threshold Schools",
+    description: "Fostering Academic Excellence...",
+    images: ["/images/college-logo.png"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
