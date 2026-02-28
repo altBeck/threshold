@@ -4,8 +4,13 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const SecPrompt = () => {
+type SecPromptProps = {
+  variant?: "intl" | "college";
+};
+
+const SecPrompt = ({ variant = "intl" }: SecPromptProps) => {
   const [visible, setVisible] = useState(true);
+  const admissionsHref = variant === "college" ? "/admissions-college" : "/admissions-international";
 
   if (!visible) return null;
 
@@ -17,7 +22,7 @@ const SecPrompt = () => {
 
         <div className="flex flex-row gap-6 items-center justify-between w-full md:w-fit">
           <Link 
-            href="/admissions"
+            href={admissionsHref}
             className="flex flex-row gap-2 px-6 py-4 bg-white rounded-md"
           >
             <span className="text-[#030096] font-semibold font-body">Enquire Now</span>

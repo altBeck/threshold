@@ -13,7 +13,7 @@ const Admission = () => {
       </div>
 
       <Link 
-        href="/admissions"
+        href="/admissions-international"
         className="flex flex-row gap-2 py-3 px-4 rounded-md my-0.5 justify-center w-fit mx-auto bg-white"
         >
         <span className="text-[#030096] white md:text-base lg:text-xl font-medium font-body">Enquire Now</span>

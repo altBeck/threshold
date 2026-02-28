@@ -4,7 +4,13 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const AcademicsDropdown = () => {
+type AcademicsDropdownProps = {
+  variant?: "intl" | "college";
+};
+
+const AcademicsDropdown = ({ variant = "intl" }: AcademicsDropdownProps) => {
+  const curriculumHref = variant === "college" ? "/curriculum-college" : "/curriculum-intl";
+  const admissionsHref = variant === "college" ? "/admissions-college" : "/admissions-international";
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
 
@@ -74,7 +80,7 @@ const AcademicsDropdown = () => {
               </Link>
             </li>
             <li>
-              <Link href="/curriculum" className="block px-6 py-2 ">
+              <Link href={curriculumHref} className="block px-6 py-2 ">
                 <div className="hover:bg-gray-50 rounded-sm px-3 pt-3">
                 <div className="font-medium flex gap-1">Curriculum
                     <Image 
@@ -90,7 +96,7 @@ const AcademicsDropdown = () => {
               </Link>
             </li>
             <li>
-              <Link href="/admissions" className="block px-6 py-2">
+              <Link href={admissionsHref} className="block px-6 py-2">
                 <div className="hover:bg-gray-50 rounded-sm px-3 pt-3">
                 <div className="font-medium flex gap-1">Admissions
                     <Image 

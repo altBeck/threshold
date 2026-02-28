@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-const Footer = () => {
+const FooterCollege = () => {
   return (
     <div
       className="w-full pt-8 lg:pt-16"
@@ -99,7 +99,7 @@ const Footer = () => {
               </div>
 
               <div>
-                <Link href="/curriculum-intl">
+                <Link href="/curriculum-college">
                   <span className="uppercase">curriculum</span>
                 </Link>
               </div>
@@ -139,8 +139,8 @@ const Footer = () => {
 
         <div className="pb-8 lg:pb-16">
           <Image 
-            src="/images/international.png"
-            alt="Threshold International School logo"
+            src="/images/logo.png"
+            alt="The Threshold School logo"
             width={100}
             height={100}
           />
@@ -155,4 +155,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterCollege
