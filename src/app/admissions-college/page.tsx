@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AdmissionBody from "@/component/AdmissionBody";
+import AdmissionBodyCollege from "@/component/AdmissionBodyCollege";
 import FooterCollege from "@/component/FooterCollege";
 import NavbarCollege from "@/component/NavbarCollege";
 
@@ -9,7 +9,7 @@ const Admissions = () => {
       <NavbarCollege />
       <div className="relative w-full h-84 md:h-108 xl:h-188 font-body!">
         <Image
-          src="/images/admission/adm.png"
+          src="/images/college/admissions-college-kid.jpeg"
           alt="Admissions Hero"
           fill
           priority
@@ -24,7 +24,7 @@ const Admissions = () => {
           <div className="w-full mx-auto p-0.5 md:p-1 bg-white" />
         </div>
       </div>
-      <AdmissionBody />
+      <AdmissionBodyCollege />
       <FooterCollege />
     </div>
   );

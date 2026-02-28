@@ -42,7 +42,7 @@ const NavBar = () => {
         <div className="w-full md:px-16 justify-between mx-auto flex flex-row items-center">
 
           <Image
-            src="/images/international.png"
+            src="/images/international-logo.png"
             alt="Threshold International logo"
             width={72}
             height={72}

@@ -42,7 +42,7 @@ const NavbarCollege = () => {
         <div className="w-full md:px-16 justify-between mx-auto flex flex-row items-center">
 
           <Image
-            src="/images/logo.png"
+            src="/images/college-logo.png"
             alt="Threshold College logo"
             width={72}
             height={72}
@@ -72,7 +72,7 @@ const NavbarCollege = () => {
             </Link>
 
             <div className="relative">
-              <AboutDropdown />
+              <AboutDropdown variant="college" />
             </div>
 
             <AcademicsDropdown variant="college" />
@@ -119,9 +119,9 @@ const NavbarCollege = () => {
             </button>
               {aboutUsOpen && (
               <div className="flex flex-col gap-1.5">
-                <Link href="/founder" className="py-1">Founder&apos;s Message</Link>
-                <Link href="/ceo" className="py-1">CEO&apos;s Message</Link>
-                <Link href="/principal" className="py-1">Principal&apos;s Message</Link>
+                <Link href="/founder-college" className="py-1">Founder&apos;s Message</Link>
+                <Link href="/ceo-college" className="py-1">CEO&apos;s Message</Link>
+                <Link href="/principal-college" className="py-1">Principal&apos;s Message</Link>
               </div>
             )}
 
@@ -151,7 +151,7 @@ const NavbarCollege = () => {
 
             {academicsOpen && (
               <div className="flex flex-col">
-                <Link href="/boarding" className="py-1">Boarding at TTC</Link>
+                <Link href="/boarding-college" className="py-1">Boarding at TTC</Link>
                 <Link href="/curriculum-college" className="py-1">Curriculum</Link>
                 <Link href="/admissions-college" className="py-1">Admissions</Link>
               </div>

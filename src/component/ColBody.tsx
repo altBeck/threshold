@@ -26,7 +26,7 @@ const ColBody = () => {
 
 
             <Link 
-              href="/boarding"
+              href="/boarding-college"
               className="flex flex-row gap-2 py-4 my-0.5 w-fit"
             >
               <span className="text-white text-xl uppercase font-medium font-body">BOARDING AT T.T.C</span>

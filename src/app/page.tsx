@@ -19,7 +19,7 @@ export default function HomePage() {
         {/* Logo */}
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-20">
           <Image
-            src="/images/logo.png"
+            src="/images/college-logo.png"
             alt="Threshold Schools logo"
             width={132}
             height={132}
@@ -35,7 +35,7 @@ export default function HomePage() {
         {/* Headings + Buttons */}
           <div className="md:w-1/2 p-16 md:border-0 md:border-r border-stone-200 flex flex-col lg:flex-row gap-8 border-b">
             <Image
-              src="/images/international.png"
+              src="/images/international-logo.png"
               alt="Threshold Schools logo"
               width={132}
               height={132}
@@ -56,7 +56,7 @@ export default function HomePage() {
 
           <div className="md:w-1/2 p-12 flex flex-col lg:flex-row gap-8 lg:items-center ">
             <Image
-              src="/images/logo.png"
+              src="/images/college-logo.png"
               alt="Threshold College logo"
               width={132}
               height={132}

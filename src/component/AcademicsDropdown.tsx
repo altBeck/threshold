@@ -11,6 +11,7 @@ type AcademicsDropdownProps = {
 const AcademicsDropdown = ({ variant = "intl" }: AcademicsDropdownProps) => {
   const curriculumHref = variant === "college" ? "/curriculum-college" : "/curriculum-intl";
   const admissionsHref = variant === "college" ? "/admissions-college" : "/admissions-international";
+  const boardingHref = variant === "college" ? "/boarding-college" : "/boarding";
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
 
@@ -63,7 +64,7 @@ const AcademicsDropdown = ({ variant = "intl" }: AcademicsDropdownProps) => {
           </div>
           <ul className="py-4">
             <li>
-              <Link href="/boarding" className="block px-6 py-2">
+              <Link href={boardingHref} className="block px-6 py-2">
                 <div className="hover:bg-gray-50 rounded-sm px-3 pt-3">
 
                   <div className="font-medium flex gap-1">Boarding at T.T.C

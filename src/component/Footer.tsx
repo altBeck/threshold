@@ -106,40 +106,11 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col">
-            <div className="pb-5">
-              <h1 className="font-semibold pb-2 uppercase">school</h1>
-              <div className="w-12 p-0.5 bg-black"/>
-            </div>
-
-            <div className="flex flex-col gap-3 text-[#5B5A5A]"> 
-              <div>
-                <Link href="/portal">
-                  <span className="uppercase">school portal</span>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col">
-            <div className="pb-5">
-              <h1 className="font-semibold pb-2 uppercase">contact</h1>
-              <div className="w-12 p-0.5 bg-black"/>
-            </div>
-
-            <div className="flex flex-col gap-3 text-[#5B5A5A]"> 
-              <div>
-                <Link href="/contact">
-                  <span className="uppercase">contact us</span>
-                </Link>
-              </div>   
-            </div>
-          </div>
         </div>
 
         <div className="pb-8 lg:pb-16">
           <Image 
-            src="/images/international.png"
+            src="/images/international-logo.png"
             alt="Threshold International School logo"
             width={100}
             height={100}

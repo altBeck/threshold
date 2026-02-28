@@ -4,7 +4,14 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const AboutDropdown = () => {
+type AboutDropdownProps = {
+  variant?: "intl" | "college";
+};
+
+const AboutDropdown = ({ variant = "intl" }: AboutDropdownProps) => {
+  const founderHref = variant === "college" ? "/founder-college" : "/founder";
+  const ceoHref = variant === "college" ? "/ceo-college" : "/ceo";
+  const principalHref = variant === "college" ? "/principal-college" : "/principal";
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
 
@@ -57,7 +64,7 @@ const AboutDropdown = () => {
           </div>
           <ul className="py-4">
             <li>
-              <Link href="/founder" className="block px-6 py-2">
+              <Link href={founderHref} className="block px-6 py-2">
                 <div className="hover:bg-gray-50 rounded-sm px-3 pt-3">
 
                   <div className="font-medium flex gap-1">Founder’s Message
@@ -74,7 +81,7 @@ const AboutDropdown = () => {
               </Link>
             </li>
             <li>
-              <Link href="/ceo" className="block px-6 py-2 ">
+              <Link href={ceoHref} className="block px-6 py-2 ">
                 <div className="hover:bg-gray-50 rounded-sm px-3 pt-3">
                   <div className="font-medium flex gap-1">CEO’s Message
                     <Image 
@@ -90,7 +97,7 @@ const AboutDropdown = () => {
               </Link>
             </li>
             <li>
-              <Link href="/principal" className="block px-6 py-2">
+              <Link href={principalHref} className="block px-6 py-2">
                 <div className="hover:bg-gray-50 rounded-sm px-3 pt-3">
                   <div className="font-medium flex gap-1">Principal’s Message
                     <Image 
