@@ -1,6 +1,6 @@
 import Principal from "@/component/Principal";
 import IntlBody from "@/component/IntlBody";
-import Navbar from "@/component/NavBar";
+import NavBar from "@/component/NavBar";
 import Prompt from "@/component/Prompt";
 import WhyChooseUsIntl from "@/component/WhyChooseUsIntl";
 import Admission from "@/component/Admission";
@@ -10,7 +10,7 @@ import Image from "next/image";
 const International = () => {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <div className="relative w-full min-h-[70vh] md:min-h-[80vh] xl:min-h-[90vh]">
         <Image
           src="/images/threshold-international.jpg"

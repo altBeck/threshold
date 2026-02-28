@@ -1,13 +1,13 @@
 import Admission from "@/component/Admission";
 import Footer from "@/component/Footer";
-import Navbar from "@/component/NavBar";
+import NavBar from "@/component/NavBar";
 import FounderMessage from "@/component/FounderMessage";
 import AdmissionOpen from "@/component/AdmissionOpen";
 
 const Founder = () => {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <FounderMessage />
       <AdmissionOpen />
 
